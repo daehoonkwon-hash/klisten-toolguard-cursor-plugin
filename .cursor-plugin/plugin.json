@@ -1,0 +1,26 @@
+{
+  "name": "klisten-toolguard",
+  "version": "0.1.0",
+  "description": "Paid policy gate decisions and attestation lookup for previously registered tools. Limited beta; no tool execution or safety guarantee.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com"
+  },
+  "homepage": "https://klisten.co.kr/customer-guide",
+  "license": "UNLICENSED",
+  "logo": "assets/icon.svg",
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KLISTEN_API_KEY": {
+        "type": "string",
+        "title": "Your scoped Klisten API key",
+        "description": "gate:check / attestations:read. Gate calls debit prepaid balance; configure a spending limit."
+      }
+    },
+    "required": [
+      "KLISTEN_API_KEY"
+    ]
+  }
+}
