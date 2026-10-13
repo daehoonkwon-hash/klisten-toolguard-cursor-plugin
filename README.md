@@ -18,3 +18,12 @@ Configuration prepared; native host install and authenticated paid-path use have
 
 ## Cursor setup
 Use the plugin configuration UI to provide KLISTEN_API_KEY. Native Cursor installation and conversation tests remain pending. On October 12, 2026 the Cursor Marketplace Team confirmed by email that the described free integration with an externally billed hosted API works under its terms. This confirmation is not marketplace approval. Remove only this plugin to uninstall; revoke its key separately in Klisten if no longer used.
+
+## Who this is for
+For developers adding an evidence and policy-check step around registered MCP tools. Read an existing attestation first; request a paid Gate decision only after preparing your target, policy, scan and baseline. Your application must enforce the verified result. ToolGuard does not execute tools or guarantee security.
+
+## Setup and usage pricing
+The integration package is free to install. Hosted API usage is separate: Scan $0.05 and Gate $0.001, using the existing prepaid wallet. Check compatibility and prerequisites before the $5 PayPal top-up. Set a spending limit and never put credentials in chat or public code.
+Start here: https://klisten.co.kr/toolguard-start
+Customer guide: https://klisten.co.kr/customer-guide
+Support: klisteninc@gmail.com
